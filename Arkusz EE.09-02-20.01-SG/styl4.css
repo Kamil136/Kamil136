@@ -1,0 +1,32 @@
+body{
+	font-family: Arial;
+	margin: 0px;
+}
+#l, #p{
+	background-color: rgb(255,127,80);
+	color: white;
+	width: 50%;
+	height: 410px;
+	float: left;
+}
+header, #g;{
+    background-color: rgb(220,220,220)
+    padding: 20px;
+	text-algin: center;
+
+}
+#sl, #sp{
+	background-color: rgb(255,127,80);
+	color: white;
+	width: 50%;
+	height: 100px;
+	float: left;
+}
+table, td{
+	border: lpx solid rgb(255,127,80);
+	padding: 10px;
+    text-align: center;
+}
+a{
+	color: white;
+}
