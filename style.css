@@ -33,7 +33,7 @@ a.gor{
 
 
 .dol{
-	color:#1a1919;
+	color:#0000FF;
 	text-align:center;
 	height:100px;
 	padding-bottom:200px;
@@ -47,11 +47,11 @@ footer{
 	width:100%;
 }
 a{
-	color:#0d0c0c;
+	color:#0000FF;
 }
 a:hover{
 	text-decoration:underline;
-	color:#262626;
+	color:#0000FF;
 	text-shadow: 0.5px 0.5px silver;
 }
 #404 h1{
@@ -59,7 +59,7 @@ font-size:250%;
 }
 #ben {
 background:none;
-color:#ffffff;
+color:#0000FF;
 font-weight:820;
 font-size:60px;
 text-shadow: 6px 6px black;
