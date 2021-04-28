@@ -7,10 +7,10 @@ html{
 }
 
 body{
-	background-color:##fcfcfc;
+	background-color:#fcfcfc;
 	box-sizing: border-box;
 	font-family: Verdana;
-	color:#0000FF;
+	color:#000000;
 	min-height:100%;
 	position:relative;
 }
@@ -23,12 +23,12 @@ nav{
  font-size:30px;
  text-align:center;
  padding:15px 0;
- background-color:#0000FF;
+ background-color:#b53f3f;
 }
 a.gor{
 	display:inline-block;
 	width:30%;
-	color:blue;
+	color:white;
 }
 
 
@@ -59,9 +59,92 @@ font-size:250%;
 }
 #ben {
 background:none;
-color:#0000FF;
+color:#ffffff;
 font-weight:820;
 font-size:60px;
 text-shadow: 6px 6px black;
 }
+
+#projekty {
+	font-family: 'Montserrat';
+	text-align: center;
+}
+
+#projekty h2 {
+	margin: 0;
+	padding: 3vh;
+}
+
+.img {
+	margin: auto;
+	display: inline-block;
+}
+
+.projektimg {
+	width: 570px;
+	height: 320px;
+	border: 2px solid black;
+	border-radius: 2px;
+	margin: auto;
+	float: left;
+	background-size: cover;
+	transition: 1s;
+}
+
+#tekst {
+	width: 100vw;
+	float: left;
+	text-align: center;
+}
+
+.projektimg h1 {
+	opacity: 0;
+	text-align: center;
+	padding: 10%;
+	transition: 1s;
+}
+
+
+.projektimg:hover h1 {
+	opacity: 1;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+#Projekty2 {
+	padding: 10%;
+	height: 100vh;
+}
+
+#projekty h2 {
+	margin: 0;
+	padding: 3vh;
+}
+
+.img {
+	margin: auto;
+	display: inline-block;
+}
+
+@media (max-width: 620px) {
+	#Kontakt h3 {
+		font-size: 70%;
+	}
+
+	.projektimg {
+		width: 90vw;
+		height: 30vh;
+	}
+
+	table {
+		font-size: 110%;
+	}
+
+	#menu {
+		font-size: 80%;
+	}
+}
+
+p {
+	margin: 0;
+	text-align: center;
 }
